@@ -1,0 +1,70 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background: black;
+    color: white;
+  }
+  
+  .container {
+    margin: 100px auto;
+    margin-top: 220px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .progress2 {
+    border-radius: 30px;
+    background-color: #fff;
+  }
+  
+  .progress-bar2 {
+    height: 18px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    transition-property: background-color;
+  }
+  
+  .progress-moved .progress-bar2 {
+    background-color: #f3c623;
+    animation: progress 5s infinite;
+  }
+  
+  @keyframes progress {
+    0% {
+      background: #f3c623;
+      box-shadow: none;
+    }
+  
+    50% {
+      background: #f3c623;
+      box-shadow: none;
+    }
+  
+    100% {
+      background: #f3c623;
+      box-shadow: 0 0 40px #f3c623;
+    }
+  }
+  
+  .icon {
+    color: #f3c623;
+    animation: icon 3s infinite;
+    background-color: transparent;
+    padding-right: 400px;
+    padding-bottom: 20px;
+  }
+  
+  @keyframes icon {
+    0% {
+      opacity: 0.2;
+      text-shadow: 0 0 0 #f3c623;
+    }
+  
+    100% {
+      opacity: 1;
+      text-shadow: 0 0 10px #f3c623;
+    }
+  }
+  
+
+  
