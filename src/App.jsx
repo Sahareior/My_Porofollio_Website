@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/skills/Skills";
 import Works from "./components/Works";
 import Testimonial from "../src/components/testimonial/Testimonial";
-
+// ....
 function App() {
   return (
     <div className="bg-black">
